@@ -1,0 +1,29 @@
+{
+  "name": "redirect-chain-checker",
+  "version": "1.0.0",
+  "description": "CLI tool to trace the full HTTP redirect chain of a URL, flagging mixed 301/302 chains and long redirect hops. By FrostRank.",
+  "main": "bin/redirect-chain-checker.js",
+  "bin": {
+    "redirect-chain-checker": "./bin/redirect-chain-checker.js"
+  },
+  "keywords": [
+    "redirect",
+    "301",
+    "302",
+    "seo",
+    "cli",
+    "http",
+    "redirect-chain",
+    "frostrank"
+  ],
+  "author": "FrostRank (https://frostrank.com)",
+  "homepage": "https://frostrank.com/tools/redirect-chain-checker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RahibAly/redirect-chain-checker.git"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
